@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "knex": "node --import tsx ./node_modules/.bin/knex",
+    "lint": "eslint src -e .ts"
+  },
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.2.2",
+    "@types/node": "^22.5.5",
+    "eslint": "^9.10.0",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "fastify": "^4.28.1",
+    "knex": "^3.1.0",
+    "sqlite3": "^5.1.7"
+  }
+}
