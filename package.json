@@ -1,4 +1,7 @@
 {
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "test": "vitest",
@@ -15,6 +18,7 @@
     "tsup": "^8.3.0",
     "tsx": "^4.19.1",
     "typescript": "^5.6.2",
+    "sqlite3": "^5.1.7",
     "vitest": "^2.1.1"
   },
   "dependencies": {
@@ -22,7 +26,7 @@
     "dotenv": "^16.4.5",
     "fastify": "^4.28.1",
     "knex": "^3.1.0",
-    "sqlite3": "^5.1.7",
+    "pg": "^8.13.0",
     "zod": "^3.23.8"
   }
 }
